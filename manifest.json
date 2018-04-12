@@ -1,0 +1,21 @@
+{
+  "manifest_version": "1",
+  "api_version": "1",
+  "name": "Tmux attach",
+  "description": "Open your existing tmux sessions",
+  "developer_name": "gurkan.in",
+  "icon": "images/tmux.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "tmux_att",
+      "type": "keyword",
+      "name": "Tmux Attach",
+      "description": "Open your existing tmux sessions",
+      "default_value": "tmux"
+    }
+  ]
+}
+
