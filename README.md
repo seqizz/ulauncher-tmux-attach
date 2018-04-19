@@ -6,4 +6,6 @@ This extension needs:
 
 It searches your open sessions and attaches to them.
 
+If no sessions found, you can create new one.
+
 ![extension screenshot](https://i.imgur.com/U0nUGlZ.png)

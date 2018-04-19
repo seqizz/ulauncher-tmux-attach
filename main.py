@@ -33,9 +33,9 @@ class KeywordQueryEventListener(EventListener):
             items.append(
                 ExtensionResultItem(
                     icon='images/tmux.png',
-                    name='No open tmux sessions found',
-                    description='',
-                    on_enter=RunScriptAction('echo No open tmux sessions found', None)
+                    name='Create a new tmux session',
+                    description='No active tmux sessions found',
+                    on_enter=RunScriptAction("gnome-terminal --tab -e \"tmux\"", None)
                 )
             )
 
