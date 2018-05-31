@@ -15,6 +15,26 @@
       "name": "Tmux Attach",
       "description": "Open your existing tmux sessions",
       "default_value": "tmux"
+    },
+    {
+      "id": "terminal_binary",
+      "type": "input",
+      "name": "Terminal emulator to run",
+      "default_value": "gnome-terminal"
+    },
+    {
+      "id": "console_parameters_attach",
+      "type": "input",
+      "name": "Parameters to append to terminal command if tmux session found",
+      "description": "Use %s for session name variable. Avoid or escape double quotes.",
+      "default_value": "--tab -e 'tmux att -t %s'"
+    },
+    {
+      "id": "console_parameters_new",
+      "type": "input",
+      "name": "Parameters to append to terminal command for new tmux session",
+      "description": "Avoid or escape double quotes.",
+      "default_value": "--tab -e 'tmux'"
     }
   ]
 }
