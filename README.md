@@ -8,8 +8,9 @@ This extension uses gnome-terminal by default. If your terminal emulator is diff
 
 For example, to be able to use this with KDE Konsole, set following parameters under settings:
 
-Terminal: konsole
-Attach parameters: --new-tab -e 'tmux att -t %s'
-New session parameters: --new-tab -e 'tmux'
+- Terminal: konsole
+- Attach parameters: --new-tab -e 'tmux att -t %s'
+- New session parameters: --new-tab -e 'tmux'
+
 
 ![extension screenshot](https://i.imgur.com/U0nUGlZ.png)
