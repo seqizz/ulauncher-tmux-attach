@@ -1,3 +1,6 @@
+// DEPRECATED: Since I am not using ulauncher anymore, this extension doesn't support the new API.
+And I have sadly no time to dig into it. Forks are welcome.
+
 Another hacky extension for the [ulauncher](https://ulauncher.io/), this time for Tmux.
 
 It searches your open sessions and attaches to them.
